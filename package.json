@@ -1,23 +1,16 @@
 {
-  "dependencies": {
-    "express": "^4.17.3"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
-  "name": "zookeepr",
-  "description": "",
+  "name": "main",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/c0y01202/zookeepr.git"
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/c0y01202/zookeepr/issues"
-  },
-  "homepage": "https://github.com/c0y01202/zookeepr#readme"
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
